@@ -1,0 +1,42 @@
+.myfont{
+    font-family:'Satisfy',cursive;
+    color:#ffffff;
+}
+.mySize
+{
+	font-size: 30px;
+}
+.navback{
+	background-color: #99b3ff;
+}
+.footers{
+	/*margin-top: 50px;*/
+	height: 200px !important;
+	width: 100%;
+	background-color: #99b3ff;
+}
+.textcolor{
+	color:#9b00c1;
+	padding: 10px;
+}
+.picture{
+	background-image: url("sl4.jpg");
+	height:400px; 
+	margin-top: -20px;
+	position: relative;
+}
+.background{
+	/*background-image: url("building2.jpg");*/
+	background-color: #c6ffff;
+	
+	width: 100%;
+	margin-top: -20px;
+	
+	background-repeat:no-repeat;
+}
+.jumbot{
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	border-color: #000000;
+	padding: 10px;
+}
