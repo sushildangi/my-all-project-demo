@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 <!-- Theme Made By www.w3schools.com - No Copyright -->
-<title>Welcome | FAQ </title>
+<title>Welcome | FAQ</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <%@ include file="css-all.jsp"%>
@@ -170,80 +170,20 @@
 
 
 </body>
-<footer class="footers">
-<div class="col-md-3">
-	<div class="textcolor">
-		<h4>Usefull Links</h4>
-		<ul>
-			<li><a href="#">something</a></li>
-			<li><a href="#">something</a></li>
-			<li><a href="#">something</a></li>
-			<li><a href="#">something</a></li>
-			<li><a href="#">something</a></li>
-		</ul>
-	</div>
-</div>
-<div class="col-md-3">
-	<div class="textcolor">
-		<h4>Usefull Links</h4>
-		<ul>
-			<li><a href="#">something</a></li>
-			<li><a href="#">something</a></li>
-			<li><a href="#">something</a></li>
-			<li><a href="#">something</a></li>
-			<li><a href="#">something</a></li>
-		</ul>
-	</div>
-</div>
-<div class="col-md-3">
-	<div class="textcolor">
-		<h4>Contact Us</h4>
-
-		<p>iSolutions4u technologies pvt.ltd</p>
-		<p>
-			<span class="glyphicon glyphicon-phone"></span>&nbsp;&nbsp;+91
-			9939744337
-		</p>
-		<p>
-			<span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;&nbsp;
-			admin@isolutions4u.com
-		</p>
-	</div>
-</div>
-<div class="col-md-3">
-	<div class="textcolor">
-		<h4>Social Media</h4>
-		<ul class="list-inline">
-			<a class="faicon-facebook" href="#"><i
-				class="fa fa-facebook-square"
-				style="font-size: 24px; color: #5137ff;"> </i></a>
-			<i class="fa fa-twitter-square"
-				style="font-size: 24px; color: #51a7ff;"></i>
-			<i class="fa fa-google-plus-square"
-				style="font-size: 24px; color: #ed332a;"></i>
-			<i class="fa fa-git-square" style="font-size: 24px; color: #080021;"></i>
-			<i class="fa fa-linkedin-square"
-				style="font-size: 24px; color: #0074ff;"></i>
-			<i class="fa fa-instagram" style="font-size: 24px; color: #ff12a1;"></i>
-			<p>copyright &copy; iSolutions4u.com</p>
-			<p class="center">2017</p>
-		</ul>
-	</div>
-</div>
-</footer>
+<%@ include file="footer.jsp"%>
 </html>
 <script type="text/javascript">
 	$(document).ready(function() {
 		$(".ques1").click(function() {
 			$(".ans1").toggle("slow");
-			
+
 		});
 		$(".ques2").click(function() {
-			$(".ans2").toggle("slow");	
+			$(".ans2").toggle("slow");
 		});
 		$(".ques3").click(function() {
 			$(".ans3").toggle("slow");
-			
+
 		});
 		$(".ques4").click(function() {
 			$(".ans4").toggle("slow");
@@ -257,7 +197,6 @@
 		$(".ques7").click(function() {
 			$(".ans7").toggle("slow");
 		});
-		
-		
+
 	});
 </script>
